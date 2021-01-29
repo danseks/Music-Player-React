@@ -8,8 +8,6 @@ export function Songlist(props) {
 	const [nextSong, setNextSong] = useState("");
 	const getAudioID = document.querySelector("#audioSong");
 	const [pause, setPause] = useState(false);
-	let test = songs[0];
-	console.log(typeof test);
 	const songURL = "https://assets.breatheco.de/apis/sound/";
 
 	useEffect(() => {
@@ -64,8 +62,6 @@ export function Songlist(props) {
 				/>{" "}
 			</div>
 			<button onClick={() => updateSong()}>pausa</button>
-			<button onClick={() => console.log(nextSong + 1)}> Next </button>
-			<button />
 		</>
 	);
 }
