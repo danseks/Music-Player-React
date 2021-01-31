@@ -33,12 +33,12 @@ border: 1px solid #c1c1c1;
     margin-bottom: 1rem;
 }
 
-ol{padding:0px 0px 15px 0px;counter-reset: section;}
+ol{padding:0px 0px 0.938rem 0px;counter-reset: section;}
 
 ol li
 {
 list-style-type:none;
-padding:15px 25px 15px 15px;
+padding:0.938rem 1.563rem 0.938rem 0.938rem;
 border-bottom:1px solid #cccccc;
 border-top:1px solid #ffffff;
 font-size:1.25em;

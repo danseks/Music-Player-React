@@ -92,7 +92,7 @@ export function Songlist() {
 										onClick={() => previusSong(actualSong)}
 										variant="default"
 										className="uvs-left">
-										<i className="fa fa-backward ml-4" />
+										<i className="fa fa-backward ml-3" />
 									</Button>
 								</Col>
 								<Col>
@@ -100,8 +100,9 @@ export function Songlist() {
 									<Button
 										onClick={() => updateSong()}
 										variant="default"
-										className="uvs-left">
-										<i className="fa fa-play ml-3" />
+										className="uvs-left d-flex flex-row">
+										<i className="fa fa-pause" />
+										<i className="fa fa-play ml-2" />
 									</Button>
 								</Col>
 								<Col>
@@ -109,7 +110,7 @@ export function Songlist() {
 										onClick={() => nextSong(actualSong)}
 										variant="default"
 										className="uvs-left">
-										<i className="fa fa-forward ml-3" />
+										<i className="fa fa-forward ml-2" />
 									</Button>
 								</Col>
 							</Row>
